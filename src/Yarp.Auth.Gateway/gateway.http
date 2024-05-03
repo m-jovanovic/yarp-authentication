@@ -1,0 +1,21 @@
+﻿@BaseUrl = http://localhost:3000
+@AccessToken = CfDJ8MxcF6QtY4VJpB9bijZW8ZsDnDEI3E71VXa2W4XxMj5S2vg0gCtWh0LQLQOB3i-rALURgmur2LBhKhFzgSAPNdQT4LxAxJ3Yhbl62Uj5PWlRzUgfEgtydjzXxxjDqnCZYmue7Y6vPqylEnpIWPDHIYkhXlEdWIfbNePzW1WuIfh1F5hS50n7w1MZPjpesHvDVYRty1JROKECT-VQzUfXzVIY-3UNeUqhW2gQOOL866J-ibBRRtjabw8qu49oq8cLls9Z3J5byxu7u-v_Re5OIzw6UwGNbwO_mhf4iKUbqFI3ji6K5cg6zujqyUE6SAC3F6xNsPLwMEe1TKJ2zq3fhzU
+
+### Login
+
+GET {{BaseUrl}}/login?isVip=true
+
+### Profile
+
+GET {{BaseUrl}}/profile
+Authorization: Bearer {{AccessToken}}
+
+### Proxy api/hello
+
+GET {{BaseUrl}}/api/hello
+Authorization: Bearer {{AccessToken}}
+
+### Proxy api/hello-vip
+
+GET {{BaseUrl}}/api/hello-vip
+Authorization: Bearer {{AccessToken}}

@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AD970495-0692-4FA3-B184-6457880F9758}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yarp.Auth.Api", "src\Yarp.Auth.Api\Yarp.Auth.Api.csproj", "{B8534A54-9398-4232-8E0C-A1EE3F342BA3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yarp.Auth.Gateway", "src\Yarp.Auth.Gateway\Yarp.Auth.Gateway.csproj", "{29F72DC7-63D7-4407-9965-5A76EC98C104}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{1A9937A2-4446-4CDD-90EC-A6D85A8AA4F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8534A54-9398-4232-8E0C-A1EE3F342BA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8534A54-9398-4232-8E0C-A1EE3F342BA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8534A54-9398-4232-8E0C-A1EE3F342BA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8534A54-9398-4232-8E0C-A1EE3F342BA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29F72DC7-63D7-4407-9965-5A76EC98C104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29F72DC7-63D7-4407-9965-5A76EC98C104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29F72DC7-63D7-4407-9965-5A76EC98C104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29F72DC7-63D7-4407-9965-5A76EC98C104}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A9937A2-4446-4CDD-90EC-A6D85A8AA4F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A9937A2-4446-4CDD-90EC-A6D85A8AA4F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A9937A2-4446-4CDD-90EC-A6D85A8AA4F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A9937A2-4446-4CDD-90EC-A6D85A8AA4F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B8534A54-9398-4232-8E0C-A1EE3F342BA3} = {AD970495-0692-4FA3-B184-6457880F9758}
+		{29F72DC7-63D7-4407-9965-5A76EC98C104} = {AD970495-0692-4FA3-B184-6457880F9758}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C9B5FADD-B1DF-41B8-8512-1EF58ECE6CA6}
+	EndGlobalSection
+EndGlobal
